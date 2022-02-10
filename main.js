@@ -14,3 +14,11 @@ function button1Clicked() {
     console.log(randNum);
     document.getElementById('random_num').innerHTML = randNum;
 }
+
+function changeColor() {
+    const className = document.getElementById('circle').classList[0];
+    
+    if (className == 'blue') {
+        document.getElementById('circle').classList.toggle('green');
+    }
+}

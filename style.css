@@ -1,3 +1,16 @@
 body {
     font-family: Arial;
 }
+
+#changing_color {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue {
+    fill: blue;
+}
+
+.green {
+    fill: green;
+}
